@@ -51,7 +51,7 @@ if __name__ == '__main__':
     # print(email_gen.random_email())
     # print(name_gen.get_full_name())
 
-    df_gen = DataframeGenerator()
+    df_generator = DataframeGenerator()
     columns = {
         'login_date': 'datetime',
         'user_document': 'cpf',
@@ -61,5 +61,5 @@ if __name__ == '__main__':
         'pf_rarity': 'float'
     }
 
-    df = df_gen.generate_pandas_df(columns_dict=columns, rows=100)
+    df = df_generator.generate_pandas_df(columns_dict=columns, rows=100)
     print(df.to_string())
