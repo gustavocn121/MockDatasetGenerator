@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/gustavocn/Desktop/iMockData/.env"
+VIRTUAL_ENV="/home/gustavocn/Desktop/MockDatasetGenerator/iMockData/.env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
