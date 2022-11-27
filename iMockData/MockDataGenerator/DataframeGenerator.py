@@ -61,5 +61,6 @@ if __name__ == '__main__':
         'pf_rarity': 'float'
     }
 
-    df = df_generator.generate_pandas_df(columns_dict=columns, rows=100)
+    df = df_generator.generate_pandas_df(columns_dict=columns, rows=10)
     print(df.to_string())
+
